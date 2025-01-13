@@ -1,5 +1,5 @@
 function getCurrentWindowTabs() {
-    return browser.tabs.query({ currentWindow: true });
+    return chrome.tabs.query({ currentWindow: true });
 }
 
 function listTabs() {

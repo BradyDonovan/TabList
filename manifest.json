@@ -1,17 +1,16 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "TabList",
     "version": "1.0",
     "description": "A browser extension to get a list of your tabs at the click of a button, separated by newline characters.",
     "icons": {
-        "48": "icons/list.svg"
+        "48": "icons/tablist.png"
     },
     "permissions": [
-        "<all_urls>",
         "tabs"
     ],
-    "browser_action": {
-        "default_icon": "icons/list.svg",
+    "action": {
+        "default_icon": "icons/tablist.png",
         "default_title": "TabList",
         "default_popup": "./src/tablist/tablist.html"
     }

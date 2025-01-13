@@ -3,18 +3,17 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
         body {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            margin: 0;
+            margin: 10px;
             padding: 10px;
+            font-size: 1.0rem
         }
 
         #copy-button {
-            align-self: flex-end;
             margin-bottom: 10px;
+            user-select: none;
         }
 
         #tabs-list-popup {
@@ -25,7 +24,7 @@
 </head>
 
 <body>
-    <button id="copy-button">Add to Clipboard</button>
+    <button id="copy-button">Copy to Clipboard</button>
     <pre id="tabs-list-popup"></pre>
 
     <script src="tablist.js"></script>
