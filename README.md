@@ -7,7 +7,7 @@ A Firefox & Chromium extension to get a list of your tabs at the click of a butt
 ## For Firefox
 Follow the instructions **[here](https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/)** to install this extension for Firefox.
 ## For Chromium
-1. Go to chrome://extensions/.
+1. Go to [chrome://extensions/](chrome://extensions).
 2. At the top right, turn on Developer mode.
 3. Click 'Load unpacked'.
 4. Find and select the extension folder.
